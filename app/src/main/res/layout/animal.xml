@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvAnimalNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_nom"
+        android:textSize="16pt"
+        android:labelFor="@+id/et_animal_nom"/>
+
+
+    <EditText
+        android:id="@+id/et_animal_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:id="@+id/tvAnimalAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_age"
+        android:textSize="16pt"
+        android:labelFor="@+id/et_animal_age"/>
+
+
+    <EditText
+        android:id="@+id/et_animal_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:completionThreshold="0"
+        android:text=""    />
+
+    <TextView
+        android:id="@+id/tvAnimalEspece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_espece"
+        android:textSize="16pt"
+        android:labelFor="@+id/et_animal_espece"/>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/et_animal_espece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:completionThreshold="0"
+        android:inputType="textCapSentences"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:text="@string/alerte_envoyer" />
+
+    <Button
+        android:id="@+id/buttonChercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animal_chercher"
+        android:onClick="onClick"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <TextView
+        android:id="@+id/tvResultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    </ScrollView>
+</LinearLayout>

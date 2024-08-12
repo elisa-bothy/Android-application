@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/carte_titre"
+        android:id="@+id/menu_carte"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:title="@string/menu_options"
+        android:id="@+id/menu_options"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item android:title="@string/menu_envoyer" android:id="@+id/menu_envoyer"
+                android:icon="@android:drawable/ic_menu_send" android:checkable="true"/>
+         </menu>
+    </item>
+    <item android:title="@string/animal_titre" android:id="@+id/menu_animal"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|withText" />
+</menu>

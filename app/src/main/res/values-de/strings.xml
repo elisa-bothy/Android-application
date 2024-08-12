@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Eatable</string>
+    <string name="jardin_titre">Aquarium\'s Card</string>
+    <string name="aquarium_titre">Aquarium</string>
+    <string name="carotte_titre">Carotte</string>
+    <string name="popcorn_titre">Popcorn</string>
+    <string name="jardin_welcome">Dutch</string>
+    <string name="jardin_nonavigator">You don\'t have any navigator</string>
+    <string name="popcorn_warning">No popcorn for fishes (%1$d %2$s)</string>
+    <string name="carotte_warning">Becareful with the requin who eat carrots (%1$d %2$s)</string>
+    <plurals name="temps_secondes">
+        <item quantity="one">second</item>
+        <item quantity="other">seconds</item>
+    </plurals>
+    <string name="index_titre">Oceanographic</string>
+    <string name="index_soustitre"><b>Welcome</b></string>
+    <string name="index_infos">Do you want to explore the ocean ?\n You can do it now by ordering your billet,\n for the <b>Oceanographic in Valence</b>\n Rendez-vous au : \n +34 960 47 06 47
+ \n reservas@oceanografic.org</string>
+    <string name="alerte_titre">Dring</string>
+    <string name="alerte_intitule">Name your alert</string>
+    <string name="alerte_lieu">Where?</string>
+    <string name="alerte_envoyer">Send</string>
+    <string name="alerte_envoi">Alert \"%1$s\" send</string>
+    <string name="alerte_envoi_urgent">Alert Urgente !!! \"%1$s\" send</string>
+    <string name="annuaire_titre">Phone Book</string>
+    <string name="alerte_confirmer">Sure?</string>
+    <string name="menu_manger">For eating</string>
+    <string name="menu_envoyer">Send</string>
+    <string name="animal_nom">Animal\'s name</string>
+    <string name="animal_age">Animal\'s Age</string>
+    <string name="animal_espece">Animal\'s species</string>
+    <string name="animal_chercher">Search\'s Animal</string>
+</resources>

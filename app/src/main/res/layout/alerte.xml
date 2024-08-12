@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvIntitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerte_intitule"
+        android:textSize="16pt"
+        android:labelFor="@+id/et_intitule"/>
+
+
+    <EditText
+        android:id="@+id/et_intitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapSentences" />
+
+    <TextView
+    android:id="@+id/tvLieu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/alerte_lieu"
+    android:textSize="16pt"
+    android:labelFor="@+id/et_lieu"/>
+
+
+        <AutoCompleteTextView
+        android:id="@+id/et_lieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:completionThreshold="0"
+        android:inputType="textCapSentences"
+        android:text=""    />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerte_info"
+        android:textSize="16pt"
+        android:labelFor="@+id/et_info"/>
+
+
+    <EditText
+        android:id="@+id/et_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="textCapSentences|textMultiLine"
+        android:gravity="start|top"
+        android:layout_weight="1"/>
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="@string/alerte_urgent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:onClick="envoyerClick"
+        android:text="@string/alerte_envoyer" />
+
+</LinearLayout>

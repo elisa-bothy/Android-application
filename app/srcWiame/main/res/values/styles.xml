@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="celulle">
+    <item name="android:layout_margin">2sp</item>
+    </style>
+<style name="celulle_tel">
+<item name="android:layout_margin">2sp</item>
+<item name="android:autoLink">phone</item>
+<item name="android:gravity">end|center</item>
+</style>
+    <style name="annuaire_jaune"
+    parent="Theme.AppCompat.Light">
+        <item name="android:background">#DDDD99</item>
+    </style>
+    </resources>

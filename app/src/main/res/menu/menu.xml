@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/jardin_titre" android:id="@+id/menu_carte"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:showAsAction="ifRoom" />
+    <item android:title="@string/aquarium_titre" android:id="@+id/menu_aquarium"
+        android:icon="@mipmap/oceano_round"
+        android:showAsAction="ifRoom" />
+    <item android:title="@string/animal_titre" android:id="@+id/menu_animal"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:showAsAction="ifRoom" />
+    <item android:title="@string/menu_manger" android:id="@+id/menu_manger"
+        android:showAsAction="ifRoom" >
+        <menu>
+            <item android:title="@string/carotte_titre" android:id="@+id/menu_carotte"
+                android:icon="@drawable/carottes"/>
+            <item android:title="@string/popcorn_titre" android:id="@+id/menu_popcorn"
+                android:icon="@drawable/popcorn"/>
+        </menu>
+    </item>
+    <item android:title="@string/menu_options" android:id="@+id/menu_option"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom" >
+        <menu>
+            <item android:title="@string/menu_envoyer" android:id="@+id/menu_envoyer"
+                android:icon="@android:drawable/ic_menu_send"
+                android:checkable="true" />
+        </menu>
+    </item>
+</menu>

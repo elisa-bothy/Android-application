@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="31" >
+
+        <activity android:name=".AccueilActivity" android:exported="true">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CarteActivity" android:exported="true" android:label="@string/carte_titre">
+        </activity>
+        <activity android:name=".AquariumActivity" android:exported="true" android:label="@string/aquarium_titre">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:mimeType="" android:scheme="content" />
+            </intent-filter> -->
+        </activity>
+        <activity android:name=".PopCornActivity" android:exported="true" android:label="@string/popcorn_titre"> </activity>
+        <activity android:name=".AlerteActivity" android:exported="true" android:label="@string/alerte_titre"> </activity>
+        <activity android:name=".AnnuaireActivity" android:label="@string/annuaire_titre" android:theme="@style/annuaire_jaune"> </activity>
+        <activity android:name=".AnimalActivity" android:label="@string/animal_titre" > </activity>
+
+    </application>
+
+</manifest>

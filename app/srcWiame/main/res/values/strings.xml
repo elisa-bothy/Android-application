@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">MonZoo</string>
+    <string name="carte_titre">Carte du Zoo</string>
+    <string name="aquarium_titre">Aquarium</string>
+    <string name="popcorn_titre">PopCorn</string>
+    <string name="carte_bienvenue">Bienvenue</string>
+    <string name="popcorn_avertissement">Pas de popcorn aux poissons (%1$d %2$s) </string>
+    <plurals name="popcorn_secondes">
+        <item quantity="one">seconde</item>
+        <item quantity="other">secondes</item>
+    </plurals>
+    <string name="accueil_soustitre">App officilelle</string>
+    <string name="accueil_info">Page officielle de MonZoo, 0869736478</string>
+    <string name="stub" translatable="false">********</string>
+    <string name="alerte_titre">Alerte</string>
+
+    <string name="intitule">Intitulé</string>
+    <string name="lieu">Lieu</string>
+    <string name="informations">Informations</string>
+    <string name="urgent">Urgent</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="alerte_envoi">Alerte %1$s envoyée</string>
+    <string name="alerte_envoi_urgent">Alerte %1$s envoyée !</string>
+    <array name="alerte_lieux" translatable="false">
+        <item>Enclos des lions</item>
+        <item>Enclos des singes</item>
+        <item>Chemin central</item>
+        <item>Buvette</item>
+    </array>
+    <string name="annuaire_titre">Annuaire</string>
+    <string name="alerte_confirmer">Confirmer</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_envoyer">Confirmer</string>
+    <string name="animal_titre">Animal</string>
+    <string name="animal_nom">Nom</string>
+    <string name="animal_age">Age</string>
+    <string name="animal_espece">Espèce</string>
+    <string name="animal_invalide">Veuillez remplir les champs</string>
+    <string name="animal_valide">Animal ajouté avec succès</string>
+    <string name="animal_chercher">Chercher</string>
+
+</resources>

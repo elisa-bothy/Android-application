@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvSouscrire"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#769546"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/index_soustitre"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btAlerte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/alerte_titre" />
+
+        <Button
+            android:id="@+id/btCarte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/jardin_titre" />
+
+        <Button
+            android:id="@+id/btAnnuaire"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/annuaire_titre" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNouvelles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stub" />
+
+    <TextView
+        android:id="@+id/tvInfos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone|email"
+        android:text="@string/index_infos" />
+
+</LinearLayout>
+</ScrollView>

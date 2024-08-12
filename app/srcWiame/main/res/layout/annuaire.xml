@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    android:shrinkColumns="1"
+    >
+        <TableRow
+            android:background="#DDD"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2sp"
+                android:text="Directrice"
+                style="@style/celulle"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2sp"
+                android:text="Ann"
+                style="@style/celulle"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2sp"
+                android:background="#CACACA"
+                android:gravity="end|center"
+                android:text="0728674284"
+                style="@style/celulle_tel"
+                />
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CEO"
+                android:layout_margin="2sp"
+                style="@style/celulle"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bob"
+                android:layout_margin="2sp"
+                style="@style/celulle"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0728674284"
+                android:layout_margin="2sp"
+                android:gravity="end|center"
+                style="@style/celulle_tel"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:background="#DDD"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marchand"
+                android:layout_margin="2sp"
+                style="@style/celulle"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raphael"
+                android:layout_margin="2sp"
+                style="@style/celulle"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0728674284"
+                android:layout_margin="2sp"
+                android:gravity="end|center"
+                style="@style/celulle_tel"
+
+                />
+
+        </TableRow>
+</TableLayout>

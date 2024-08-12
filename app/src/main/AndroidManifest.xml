@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/oceano"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/oceano_round"
+        android:supportsRtl="true"
+        tools:targetApi="31" >
+
+        <activity android:name=".IndexActivity" android:exported="true"
+            android:label="@string/index_titre">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AnnuaireActivity" android:label="@string/annuaire_titre"
+            android:theme="@style/annuaire_jaune"/>
+        <activity android:name=".AnimalActivity" android:label="@string/animal_titre"/>
+        <activity android:name=".AlerteActivity" android:label="@string/alerte_titre"/>
+        <activity android:name=".JardinActivity" android:label="@string/jardin_titre"/>
+        <activity android:name=".AquariumActivity" android:label="@string/aquarium_titre"/>
+        <activity android:name=".PopcornActivity" android:label="@string/popcorn_titre"/>
+        <activity android:name=".CarotteActivity" android:label="@string/carotte_titre" />
+
+        <!-- l'intent filter est là pour dire que l'activité peut faire une chose
+        <activity android:name=".AquariumActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:mimeType="image/jpeg" android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        !-->
+    </application>
+</manifest>

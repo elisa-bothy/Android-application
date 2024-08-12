@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Ca se mange</string>
+    <string name="jardin_titre">Carte del aquarium</string>
+    <string name="aquarium_titre">Aquarium</string>
+    <string name="carotte_titre">Carotte</string>
+    <string name="popcorn_titre">Popcorn</string>
+    <string name="jardin_welcome">Bienvenudo</string>
+    <string name="jardin_nonavigator">No tenia navigator</string>
+    <string name="popcorn_warning">No popcorn para los animales (%1$d %2$s)</string>
+    <string name="carotte_warning">Carida del requino que come las carotes (%1$d %2$s)</string>
+    <plurals name="temps_secondes">
+        <item quantity="one">second</item>
+        <item quantity="other">seconds</item>
+    </plurals>
+    <string name="index_titre">Oceanographic</string>
+    <string name="index_soustitre"><b>Bienvenudo</b></string>
+    <string name="index_infos">Quiere explorar el ocean ?\n Se puede si compra un billeto\n para el <b>Oceanographico de Valencia</b>\n Rendez-vous au : \n +34 960 47 06 47
+ \n reservas@oceanografic.org</string>
+    <string name="alerte_titre">Dring</string>
+    <string name="alerte_intitule">Que se passa?</string>
+    <string name="alerte_lieu">Donde?</string>
+    <string name="alerte_envoyer">Envoie</string>
+    <string name="alerte_envoi">Alerte \"%1$s\" envoyée</string>
+    <string name="alerte_envoi_urgent">Alerte Urgente !!! \"%1$s\" envoyée</string>
+    <string name="annuaire_titre">Directorio Telefónico</string>
+    <string name="alerte_confirmer">Seguro?</string>
+    <string name="menu_manger">Para comer</string>
+    <string name="menu_envoyer">Approbar</string>
+    <string name="animal_nom">El nombre del animale</string>
+    <string name="animal_age">Cuantos anos tiene ?</string>
+    <string name="animal_espece">Quien es ?</string>
+    <string name="animal_chercher">Animale Querido</string>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="carte_titre">Zoo Map</string>
+    <string name="aquarium_titre">Aquarium</string>
+    <string name="popcorn_titre">PopCorn</string>
+    <string name="carte_bienvenue">Welcome</string>
+    <string name="popcorn_avertissement">No popcorn for the fishes (%1$d %2$s) </string>
+    <plurals name="popcorn_secondes">
+        <item quantity="one">second</item>
+        <item quantity="other">seconds</item>
+    </plurals>
+    <string name="accueil_soustitre">Officiel app</string>
+    <string name="accueil_info">Officiel page of MonZoo 0897263748</string>
+    <string name="stub" translatable="false">********</string>
+    <string name="alerte_titre">Warning</string>
+
+    <string name="intitule">Titled</string>
+    <string name="lieu">Place</string>
+    <string name="informations">Informations</string>
+    <string name="urgent">Urgent</string>
+    <string name="envoyer">Send</string>
+    <string name="alerte_envoi">Alert %1$s sended</string>
+    <string name="alerte_envoi_urgent">Alert %1$s sended !</string>
+    <string name="annuaire_titre">Directory</string>
+    <string name="alerte_confirmer">Confirm</string>
+    <string name="menu_options">Options</string>
+    <string name="menu_envoyer">Confirm</string>
+    <string name="animal_titre">Animal</string>
+    <string name="animal_nom">Name</string>
+    <string name="animal_age">Age</string>
+    <string name="animal_espece">Species</string>
+    <string name="animal_invalide">Please fill in the fields</string>
+    <string name="animal_valide">Animal added succesfully</string>
+    <string name="animal_chercher">Search</string>
+
+</resources>
