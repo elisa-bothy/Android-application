@@ -1,0 +1,37 @@
+
+¯
+;
+android*http://schemas.android.com/apk/res/androidBmenu*Ó
+Êitem"q
+*http://schemas.android.com/apk/res/androidtitle@string/carte_titre"(áƒ„2
+»€Äøstring/carte_titre0"Z
+*http://schemas.android.com/apk/res/androidshowAsActionifRoom|withText"(Ù…„2:8"‹
+*http://schemas.android.com/apk/res/androidicon!@android:drawable/ic_menu_mapmode"(‚€„2+
+)Ã€  android:drawable/ic_menu_mapmode0"e
+*http://schemas.android.com/apk/res/androidid@+id/menu_carte"(Ğ„2
+€‚¤øid/menu_carte02*»
+²item"s
+*http://schemas.android.com/apk/res/androidtitle@string/menu_options"(áƒ„2
+ó€Äøstring/menu_options0"Z
+*http://schemas.android.com/apk/res/androidshowAsActionifRoom|withText"(Ù…„2:8"“
+*http://schemas.android.com/apk/res/androidicon%@android:drawable/ic_menu_preferences"(‚€„2/
+-É€ $android:drawable/ic_menu_preferences0"i
+*http://schemas.android.com/apk/res/androidid@+id/menu_options"(Ğ„2
+‚‚¤øid/menu_options0*×
+Îmenu*Å
+¼item"L
+*http://schemas.android.com/apk/res/android	checkabletrue"(åƒ„2:@"s
+*http://schemas.android.com/apk/res/androidtitle@string/menu_envoyer"(áƒ„2
+ò€Äøstring/menu_envoyer0"…
+*http://schemas.android.com/apk/res/androidicon@android:drawable/ic_menu_send"(‚€„2(
+&Ğ€ android:drawable/ic_menu_send0"i
+*http://schemas.android.com/apk/res/androidid@+id/menu_envoyer"(Ğ„2
+‚¤øid/menu_envoyer0Y	0*Õ
+Ìitem"s
+*http://schemas.android.com/apk/res/androidtitle@string/animal_titre"(áƒ„2
+§€Äøstring/animal_titre0"Z
+*http://schemas.android.com/apk/res/androidshowAsActionifRoom|withText"(Ù…„2:8"‰
+*http://schemas.android.com/apk/res/androidicon @android:drawable/ic_menu_search"(‚€„2*
+(Ï€ android:drawable/ic_menu_search0"g
+*http://schemas.android.com/apk/res/androidid@+id/menu_animal"(Ğ„2
+ÿ¤øid/menu_animal02B
